@@ -1,0 +1,217 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    margin: 20rem 0rem 10rem 10rem;
+    width: 80%;
+    display: inline-block;
+}
+
+.container-heading {
+    font-size: 5rem;
+    text-transform: capitalize;
+    color: #575757;
+    font-weight: 600;
+    line-height: 7rem;
+}
+
+.container-heading-skip {
+    color: rgb(251, 147, 74)
+}
+
+.container-paragraph {
+    font-size: 2rem;
+    margin-top: 3rem;
+    width: 45%;
+    line-height: 3rem;
+    color: rgb(92, 100, 109);
+}
+
+.container-button {
+    padding: 15px 30px;
+    background-color: rgb(251, 147, 74);
+    border-color: rgb(229, 235, 229);
+    color: white;
+    margin-top: 5rem;
+    border-radius: 3.2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.container-right-picture {
+    width: 100%;
+}
+
+.image1 {
+    width: 40%;
+    float: right;
+    display: inline-block;
+    margin-top: -60rem;
+    margin-right: 7rem;
+}
+
+.container-about {
+    background-image: url(7.png);
+    width: 100%;
+}
+
+.person-image {
+    width: 23%;
+    height: 48rem;
+    margin-top: 7rem;
+    margin-left: 18rem;
+}
+
+.blog-about-me {
+    width: 60%;
+    display: inline-block;
+    float: right;
+    margin-top: -43rem;
+    padding-left: 15rem;
+}
+
+.blog-about-me-heading {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: #828282;
+    font-weight: 600;
+}
+
+.blog-about-me-text {
+    width: 70%;
+    font-size: 2.3rem;
+    margin-top: 4rem;
+    color: rgb(92, 100, 109);
+    line-height: 3rem;
+}
+
+.blog {
+    margin-top: 5rem;
+    display: grid;
+    place-content: center;
+    margin-bottom: 5rem;
+}
+
+.blog-heading {
+    color: rgb(92, 100, 109);
+    font-size: 4rem;
+    margin-left: 30rem;
+}
+
+.blog-para {
+    font-size: 2.2rem;
+    margin-top: 3rem;
+    line-height: 3rem;
+    color: rgb(92, 100, 109);
+}
+
+.blog-pera1 {
+    margin-left: 10rem;
+}
+
+.blog-pera2 {
+    margin-left: 6rem;
+}
+
+.blog-pera3 {
+    margin-left: 36rem;
+}
+
+.recipie {
+    width: 23%;
+    box-shadow: 1px 1px 15px #828282, -1px -1px 15px #828282;
+    border-radius: 3rem;
+    padding: 2rem;
+    transition: 0.2s all ease;
+    cursor: pointer;
+    margin-left: 10rem;
+    display: inline-block;
+}
+
+.project-cover1 {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.recipie-heading {
+    margin-bottom: 1.7rem;
+    font-size: 2.5rem;
+}
+
+.recipie-text {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.subscriber {
+    margin: 10rem 0 5rem 7rem;
+    display: flex;
+    box-shadow: 1px 1px 15px #828282, -1px -1px 15px #828282;
+    border-radius: 1.5rem;
+    margin-right: 5rem;
+    padding-left: 3.5rem;
+}
+.subscriber-items{
+    width: 33%;
+    display: grid;
+    justify-content: center;
+    padding: 2rem 3rem;
+    display: inline-block;
+    margin-left: 7rem;
+
+}
+
+.subscriber-heading {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.subscriber-body {
+    font-size: 1.7rem;
+    color: rgb(92, 100, 109);
+    font-weight: 600;
+}
+.footer{
+    background-color: #0b0d17;
+    padding-top: 5rem;
+    display: grid;
+    place-content: center;
+}
+.footer-heading{
+    color: rgb(92, 100, 109);
+    font-size: 3.5rem;
+}
+.footer-heading1{
+    color: rgb(251, 147, 74);
+    margin-left: 2.2rem;
+}
+.footer-text{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.footer-last{
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 5rem;
+}
+.footer2{
+    background-color: #0b0d17;
+    text-align: right;
+    margin-top: -2.5rem;
+}
